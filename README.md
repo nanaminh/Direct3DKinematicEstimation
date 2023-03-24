@@ -1,4 +1,7 @@
 # Towards single camera human 3D-kinematics
+####  This repository is folked from [/bittnerma/Direct3DKinematicEstimation](https://github.com/bittnerma/Direct3DKinematicEstimation) for the "CS4240 Deep Learning" course at Delft University of Technology. 
+
+
 
 <p class="callout info">This repository is currently under construction</p>
 
