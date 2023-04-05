@@ -9,6 +9,7 @@ from ms_model_estimation.opensim_utils.OSLabelGenerator import BMLAmassOpenSimGT
 from ms_model_estimation.pyOpenSim.TrcGenerator import TrcGenerator
 
 import pickle as pkl
+
 from tqdm import tqdm
 
 parent_dir = Path(__file__).absolute().parent
@@ -19,7 +20,7 @@ modelPath=str((parent_dir / "resources/opensim/BMLmovi/full_body.osim").as_posix
 amassFolder=str((parent_dir / "resources/amass/").as_posix())
 v3dFolder = str((parent_dir / "resources/V3D/F/").as_posix())
 
-videoFolder = str(Path("E:/Users/Marian/Projects/VideoJointAngle/Data/BMLTestVideo/").as_posix())
+videoFolder = str(Path("videos/").as_posix())
 
 outputFolder = str((parent_dir / "_dataset").as_posix())
 
