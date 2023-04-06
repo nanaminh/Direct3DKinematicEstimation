@@ -207,6 +207,8 @@ _dataset/*
 _dataset_full/*
 checkpoints/*
 
+./video
+
 # Ignore archives
 *.tar
 *.zip

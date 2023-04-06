@@ -1,3 +1,7 @@
+import sys
+#osim_path = 'C:\OpenSim 4.4\sdk\Python'
+#sys.path.insert(0,osim_path)
+
 import opensim
 from ms_model_estimation.opensim_utils.utils import set_axes, setFunction, unit_checking
 from ms_model_estimation.pyOpenSim.PyOpenSimModel import PyOpenSimModel
